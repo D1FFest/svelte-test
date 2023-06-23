@@ -1,6 +1,6 @@
 <nav>
     <div class="nav-container">
-        <a href="/" class = "nav-logo" title = "Back to homepage">Имя Фамилия</a>
+        <a href="/" class = "nav-logo" title = "Back to homepage">Murashkin Peter</a>
         <div class="nav-links">
             {#each nav as link}
             {#if link.isShow}
@@ -33,7 +33,7 @@
         {
             title: 'Котнтакты',
             href: '/contact',
-            isShow: true
+            isShow: false
         },
         {
             title: 'temp',
